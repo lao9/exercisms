@@ -1,9 +1,5 @@
 class HelloWorld
-
-end
-
-class Class
-  def hello(object="World")
+  def self.hello(object="World")
     return "Hello, #{object}!"
   end
 end
